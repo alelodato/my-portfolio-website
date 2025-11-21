@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { useI18n } from '../i18n/I18nContext';
-import { LanguageSwitcher } from './LanguageSwitcher.jsx';
+import { LanguageSwitcher } from './components/LanguageSwitcher.jsx';
 
 const navLinkBase =
   'px-3 py-1.5 text-xs md:text-sm uppercase tracking-[0.2em] rounded-full transition hover:bg-white/10';
